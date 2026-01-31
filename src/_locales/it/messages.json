@@ -1,0 +1,304 @@
+{
+  "extName": {
+    "message": "MetaGroove",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Advanced content filter for YouTube Music, YouTube and SoundCloud",
+    "description": "Extension description"
+  },
+  
+  "platformYouTubeMusic": {
+    "message": "🎵 YouTube Music"
+  },
+  "platformYouTube": {
+    "message": "📺 YouTube"
+  },
+  "platformSoundCloud": {
+    "message": "☁️ SoundCloud"
+  },
+  "platformUnsupported": {
+    "message": "❌ Sito non supportato"
+  },
+
+  "msgPlatformDisabled": {
+    "message": "Estensione disabilitata. Abilitala nelle Impostazioni Avanzate."
+  },
+  
+  "btnDisabled": {
+    "message": "Disabilitata"
+  },
+  "btnEnabled": {
+    "message": "Abilitata"
+  },
+  "btnApplyFilters": {
+    "message": "Applica"
+  },
+  "btnApplying": {
+    "message": "Applicando..."
+  },
+
+  "explorationMode": {
+    "message": "Modalità Esplorazione (YouTube)"
+  },
+  
+  "filterYear": {
+    "message": "Anno di Pubblicazione"
+  },
+  "filterYearFrom": {
+    "message": "Da"
+  },
+  "filterYearTo": {
+    "message": "A"
+  },
+  "filterYearShowUnknown": {
+    "message": "Mostra tracce senza anno"
+  },
+  
+  "filterDuration": {
+    "message": "Durata Brano"
+  },
+  
+  "filterSearch": {
+    "message": "Cerca nel Titolo/Canale"
+  },
+  "filterSearchPlaceholder": {
+    "message": "es.: virtual riot, dubstep, skrillex"
+  },
+  
+  "filterBlacklist": {
+    "message": "Blacklist (Escludi Parole)"
+  },
+  "filterBlacklistPlaceholder": {
+    "message": "es.: remix, cover, live"
+  },
+  
+  "filterHashtags": {
+    "message": "Hashtag Richiesti"
+  },
+  "filterHashtagsPlaceholder": {
+    "message": "es.: #frenchcore, #dubstep"
+  },
+  "filterHashtagsModeAny": {
+    "message": "Almeno uno (ANY)"
+  },
+  "filterHashtagsModeAll": {
+    "message": "Tutti (ALL)"
+  },
+  
+  "filterLikes": {
+    "message": "Likes"
+  },
+  "filterReposts": {
+    "message": "Reposts"
+  },
+  "filterComments": {
+    "message": "Comments"
+  },
+  
+  "errorInvalidYear": {
+    "message": "L'anno deve essere tra il 1950 e il 2030"
+  },
+  "errorYearRange": {
+    "message": "L'anno minimo deve essere inferiore al massimo"
+  },
+  "errorDurationRange": {
+    "message": "La durata minima deve essere inferiore alla massima"
+  },
+  "errorSaving": {
+    "message": "Errore salvataggio impostazioni"
+  },
+  
+  "loading": {
+    "message": "Caricamento..."
+  },
+  
+  "infoIconTitle": {
+    "message": "Info e Guida"
+  },
+  "settingsIconTitle": {
+    "message": "Impostazioni Avanzate"
+  },
+  
+  "optionsTitle": {
+    "message": "Advanced Settings"
+  },
+  "optionsPlatformsSection": {
+    "message": "🌐 Supported Platforms"
+  },
+  "optionsPlatformsDescription": {
+    "message": "Enable or disable the extension for specific platforms."
+  },
+  "warningYTM": {
+    "message": "EXPERIMENTAL - WARNING! This is experimental and should not be enabled because Youtube can ghostban your Youtube channel"
+  },
+  "optionsApiKeySection": {
+    "message": "🔑 YouTube Data API Key"
+  },
+  "optionsApiKeyDescription": {
+    "message": "MetaGroove uses free HTML fetch to extract video dates from YouTube.com. You can configure a YouTube API key for a more reliable fallback in case of rate limiting."
+  },
+  "optionsApiKeyLabel": {
+    "message": "API Key (Optional)"
+  },
+  "optionsApiKeyPlaceholder": {
+    "message": "Enter your YouTube Data API v3 key"
+  },
+  "optionsApiKeyHint": {
+    "message": "Don't have an API key?"
+  },
+  "optionsApiKeyHintLink": {
+    "message": "Get it for free here"
+  },
+  "optionsApiKeyHintQuota": {
+    "message": "(10,000 requests/day free)"
+  },
+  "btnSaveApiKey": {
+    "message": "Save API Key"
+  },
+  "btnRemoveApiKey": {
+    "message": "Remove API Key"
+  },
+  "optionsCacheSection": {
+    "message": "🗄️ Video Cache Management"
+  },
+  "optionsCacheDescription": {
+    "message": "The cache stores publication dates of already fetched videos to speed up filtering and avoid repeated network requests."
+  },
+  "optionsCacheVideos": {
+    "message": "Videos in cache"
+  },
+  "optionsCacheSize": {
+    "message": "Size"
+  },
+  "btnRefreshStats": {
+    "message": "🔄 Refresh Stats"
+  },
+  "optionsCacheAutoClean": {
+    "message": "Cache automatically clears after 7 days for each video"
+  },
+  "btnClearCache": {
+    "message": "🗑️ Clear All Cache"
+  },
+  "optionsErrorLoading": {
+    "message": "Error loading settings"
+  },
+  "optionsApiKeyInvalid": {
+    "message": "Enter a valid API key"
+  },
+  "optionsSaving": {
+    "message": "Saving..."
+  },
+  "optionsApiKeySaved": {
+    "message": "✓ API Key saved successfully!"
+  },
+  "optionsErrorSaving": {
+    "message": "Error saving"
+  },
+  "optionsErrorSavingApiKey": {
+    "message": "Error saving API key"
+  },
+  "optionsConfirmRemoveApiKey": {
+    "message": "Do you really want to remove the API key?\n\nThe extension will only use free HTML fetch."
+  },
+  "optionsRemoving": {
+    "message": "Removing..."
+  },
+  "optionsApiKeyRemoved": {
+    "message": "✓ API Key removed"
+  },
+  "optionsErrorRemoving": {
+    "message": "Error removing"
+  },
+  "optionsErrorRemovingApiKey": {
+    "message": "Error removing API key"
+  },
+  "optionsConfirmClearCache": {
+    "message": "Do you really want to clear all video date cache?\n\nThis will force re-fetch of all dates on next visit."
+  },
+  "optionsClearing": {
+    "message": "🗑️ Clearing..."
+  },
+  "optionsCacheCleared": {
+    "message": "✓ Cache cleared successfully!"
+  },
+  "optionsErrorClearing": {
+    "message": "Error clearing"
+  },
+  "optionsErrorClearingCache": {
+    "message": "Errore pulizia cache"
+  },
+
+  "aboutTitle": { "message": "MetaGroove - Info e Guida" },
+  "aboutTagline": { "message": "Filtri musicali avanzati per YouTube, YouTube Music e SoundCloud" },
+  "aboutSectionWhatTitle": { "message": "🎵 Cos'è MetaGroove?" },
+  "aboutWhatP1": { "message": "<strong>MetaGroove</strong> è un'estensione browser gratuita e open-source che aggiunge <strong>filtri avanzati e parametrabili</strong> alle principali piattaforme di streaming musicale." },
+  "aboutWhatP2": { "message": "Permette di filtrare contenuti musicali su <strong>YouTube</strong>, <strong>YouTube Music</strong> e <strong>SoundCloud</strong> in base a criteri come:" },
+  "aboutWhatLi1": { "message": "<strong>Anno di pubblicazione</strong> (es: solo musica 2015-2020)" },
+  "aboutWhatLi2": { "message": "<strong>Durata brano</strong> (es: solo tracce 3-5 minuti)" },
+  "aboutWhatLi3": { "message": "<strong>Ricerca nel titolo/artista</strong> (es: solo tracce che contengono \"remix\")" },
+  "aboutWhatLi4": { "message": "<strong>Modalità Esplorazione</strong> (YouTube): Filtra i suggerimenti mostrando solo i video correlati, rimuovendo il rumore algoritmico." },
+  "aboutUniqueFeatureBox": { "message": "<strong>⚡ Caratteristica Unica:</strong> MetaGroove può estrarre le date di pubblicazione direttamente da YouTube.com, rendendo il filtro anno funzionante anche su YouTube Music dove questa informazione non è normalmente visibile." },
+  
+  "aboutSectionHowTitle": { "message": "📖 Come Si Usa (Guida Step-by-Step)" },
+  "aboutHowStep1Title": { "message": "1️⃣ Apri MetaGroove" },
+  "aboutHowStep1Text": { "message": "Vai su una piattaforma supportata (YouTube, YouTube Music o SoundCloud) e clicca sull'icona di MetaGroove nella barra delle estensioni del browser." },
+  "aboutHowStep2Title": { "message": "2️⃣ Abilita i Filtri Desiderati" },
+  "aboutHowStep2Text": { "message": "Nel popup, <strong>spunta le checkbox</strong> dei filtri che vuoi utilizzare:" },
+  "aboutHowStep2Li1": { "message": "<strong>Anno Pubblicazione:</strong> Imposta anno minimo e massimo" },
+  "aboutHowStep2Li2": { "message": "<strong>Durata Brano:</strong> Usa gli slider per scegliere durata min/max" },
+  "aboutHowStep2Li3": { "message": "<strong>Ricerca Testo:</strong> Inserisci parole chiave separate da virgola (es: \"remix, live\")" },
+  "aboutHowStep3Title": { "message": "3️⃣ Clicca su \"Applica Filtri\"" },
+  "aboutHowStep3Text": { "message": "Dopo aver configurato i filtri, clicca il pulsante <strong>\"Applica Filtri\"</strong>." },
+  "aboutWarningImportant": { "message": "<strong>⏱️ IMPORTANTE - Attendere il Caricamento!</strong>" },
+  "aboutWarningText": { "message": "Dopo aver cliccato \"Applica Filtri\", la pagina si ricaricherà automaticamente. <strong>NON CHIUDERE LA PAGINA</strong> e <strong>ASPETTA</strong> che MetaGroove:" },
+  "aboutWarningLi1": { "message": "Scrolli automaticamente la pagina per caricare tutti i contenuti disponibili" },
+  "aboutWarningLi2": { "message": "Estragga le informazioni (titolo, artista, anno, durata) da ogni traccia" },
+  "aboutWarningLi3": { "message": "Applichi i filtri e nasconda le tracce che non corrispondono" },
+  "aboutProcessingTime": { "message": "⏳ <strong>Tempo di elaborazione:</strong> Da pochi secondi (playlist piccole) fino a 1-2 minuti (canali con centinaia di video). Vedrai i log nella console del browser (F12) per monitorare il progresso." },
+  
+  "aboutHowStep4Title": { "message": "4️⃣ Risultato" },
+  "aboutHowStep4Text": { "message": "Le tracce che <strong>NON corrispondono</strong> ai criteri di filtro verranno <strong>nascoste automaticamente</strong>, lasciando visibili solo quelle che soddisfano tutti i filtri attivi." },
+  "aboutTip": { "message": "<strong>💡 Suggerimento:</strong> Per vedere TUTTE le tracce nuovamente, disabilita i filtri nel popup e clicca \"Applica Filtri\" oppure ricarica manualmente la pagina (F5)." },
+  
+  "aboutSectionWhyTitle": { "message": "💎 Perché è Utile?" },
+  "aboutWhyGrid1Title": { "message": "🎧 DJ e Produttori" },
+  "aboutWhyGrid1Text": { "message": "Trova tracce di un periodo specifico per creare mix tematici (es: \"solo 90s house music\")" },
+  "aboutWhyGrid2Title": { "message": "📚 Ricercatori Musicali" },
+  "aboutWhyGrid2Text": { "message": "Analizza l'evoluzione di un genere filtrando per anno e parole chiave specifiche" },
+  "aboutWhyGrid3Title": { "message": "🎵 Ascoltatori Esigenti" },
+  "aboutWhyGrid3Text": { "message": "Filtra tracce troppo lunghe/corte o trova solo remix/live version" },
+  "aboutWhyGrid4Title": { "message": "📊 Curatori Playlist" },
+  "aboutWhyGrid4Text": { "message": "Crea playlist tematiche filtrando per criteri multipli combinati" },
+  
+  "aboutSectionCreatedTitle": { "message": "🚀 Perché è Nato MetaGroove?" },
+  "aboutCreatedText1": { "message": "MetaGroove nasce dalla <strong>frustrazione</strong> di non poter filtrare efficacemente i contenuti musicali sulle piattaforme di streaming più popolari." },
+  "aboutCreatedText2": { "message": "Le piattaforme come YouTube e SoundCloud offrono milioni di tracce, ma le loro interfacce di ricerca e navigazione sono <strong>limitate e non permettono filtri avanzati</strong> per parametri fondamentali come anno di pubblicazione o durata." },
+  "aboutCreatedText3": { "message": "Questo rende <strong>impossibile</strong> per DJ, produttori musicali, ricercatori e semplici appassionati di musica trovare facilmente contenuti specifici senza dover scrollare manualmente centinaia di risultati." },
+  "aboutMissionBox": { "message": "<strong>🎯 Missione:</strong> Restituire il controllo agli utenti permettendo di <strong>filtrare, organizzare e scoprire musica</strong> secondo i propri criteri, senza dipendere dagli algoritmi delle piattaforme." },
+  
+  "aboutSectionCreatorTitle": { "message": "👨‍💻 Creatore" },
+  "aboutDevelopedBy": { "message": "Sviluppato da" },
+  "aboutCreatorText": { "message": "MetaGroove è un progetto <strong>open-source</strong> sviluppato e mantenuto da <a href=\"https://github.com/TX-Breaker\" class=\"link\" target=\"_blank\">TX-Breaker</a>." },
+  "aboutContributeText": { "message": "Contributi, feedback e segnalazioni bug sono benvenuti! Visita il repository GitHub per contribuire al progetto." },
+  
+  "aboutSectionLicenseTitle": { "message": "⚖️ Licenza e Disclaimer" },
+  "aboutLicenseTitle": { "message": "Licenza" },
+  "aboutLicenseText": { "message": "MetaGroove è rilasciato sotto licenza <strong>MIT License</strong>, che permette:" },
+  "aboutLicenseLi1": { "message": "✅ Uso commerciale e personale" },
+  "aboutLicenseLi2": { "message": "✅ Modifica del codice sorgente" },
+  "aboutLicenseLi3": { "message": "✅ Distribuzione (con attribuzione all'autore originale)" },
+  "aboutLicenseLi4": { "message": "✅ Uso privato senza limitazioni" },
+  "aboutDisclaimerTitle": { "message": "Disclaimer Importante" },
+  "aboutDisclaimerBoxTitle": { "message": "⚠️ Strumento Indipendente" },
+  "aboutDisclaimerBoxText": { "message": "MetaGroove è uno strumento completamente indipendente che:<ul style=\"margin-top: 12px;\"><li>NON ha alcuna affiliazione con YouTube, Google, SoundCloud o altre piattaforme</li><li>NON è sponsorizzato, endorsato o approvato da queste piattaforme</li><li>Opera interamente lato client (nel browser dell'utente)</li><li>NON raccoglie, memorizza o trasmette dati personali</li></ul>" },
+  "aboutPrivacyText": { "message": "<strong>Privacy:</strong> MetaGroove non traccia l'attività dell'utente e non raccoglie dati analytics. Tutte le operazioni di filtraggio avvengono localmente nel browser." },
+  "aboutTosText": { "message": "<strong>Termini di Servizio:</strong> L'utilizzo di MetaGroove non viola i ToS delle piattaforme supportate in quanto l'estensione si limita a nascondere elementi già presenti nella pagina web, senza modificare il contenuto o eludere misure tecniche di protezione." },
+  
+  "aboutSectionSupportTitle": { "message": "❓ Supporto e Segnalazioni" },
+  "aboutSupportText": { "message": "Per segnalare bug, richiedere funzionalità o ottenere supporto:" },
+  "aboutSupportLi1": { "message": "🐛 <strong>Bug Report:</strong> Apri una issue su <a href=\"https://github.com/TX-Breaker/MetaGroove/issues\" class=\"link\" target=\"_blank\">GitHub Issues</a>" },
+  "aboutSupportLi2": { "message": "💡 <strong>Feature Request:</strong> Proponi nuove funzionalità tramite GitHub" },
+  "aboutSupportLi3": { "message": "📖 <strong>Documentazione:</strong> Consulta il <a href=\"https://github.com/TX-Breaker/MetaGroove\" class=\"link\" target=\"_blank\">README su GitHub</a>" },
+  "aboutLikeBox": { "message": "<strong>🌟 Ti piace MetaGroove?</strong><br>Lascia una stella ⭐ su GitHub e condividi il progetto con altri appassionati di musica!" }
+}

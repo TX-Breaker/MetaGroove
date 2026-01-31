@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="aboutTitle">MetaGroove - About & Guide</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 900px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; color: white; }
+    .logo { width: 100px; height: 100px; margin: 0 auto 20px; display: block; }
+    .header h1 { font-size: 40px; font-weight: 700; margin-bottom: 10px; }
+    .version { font-size: 14px; opacity: 0.8; margin-bottom: 20px; }
+    .tagline { font-size: 18px; opacity: 0.9; font-style: italic; }
+    .section {
+      background: white; border-radius: 16px; padding: 35px; margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      font-size: 24px; font-weight: 700; color: #667eea; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .section h3 {
+      font-size: 18px; font-weight: 600; color: #333; margin: 24px 0 12px 0;
+    }
+    .section h3:first-of-type { margin-top: 0; }
+    .section p { font-size: 15px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ul, .section ol { margin: 16px 0; padding-left: 24px; }
+    .section li { font-size: 15px; color: #555; line-height: 1.8; margin-bottom: 12px; }
+    .section li strong { color: #667eea; }
+    .highlight-box {
+      background: #f0f4ff; border-left: 4px solid #667eea; padding: 16px 20px;
+      margin: 20px 0; border-radius: 8px;
+    }
+    .highlight-box strong { color: #667eea; font-size: 16px; }
+    .warning-box {
+      background: #fff3cd; border-left: 4px solid #ffc107; padding: 16px 20px;
+      margin: 20px 0; border-radius: 8px;
+    }
+    .warning-box strong { color: #f57c00; }
+    .feature-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px; margin: 20px 0;
+    }
+    .feature-card {
+      background: #f8f9fa; padding: 20px; border-radius: 12px; border: 2px solid #e0e0e0;
+    }
+    .feature-card h4 { color: #667eea; font-size: 16px; margin-bottom: 8px; }
+    .feature-card p { font-size: 14px; color: #666; margin: 0; }
+    .link { color: #667eea; text-decoration: none; font-weight: 600; }
+    .link:hover { text-decoration: underline; }
+    .creator-box {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;
+      padding: 24px; border-radius: 12px; text-align: center; margin: 20px 0;
+    }
+    .creator-box h4 { font-size: 18px; margin-bottom: 12px; }
+    .creator-box a {
+      color: white; text-decoration: none; font-size: 16px; font-weight: 600;
+      display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px;
+      background: rgba(255,255,255,0.2); border-radius: 8px; transition: all 0.3s;
+    }
+    .creator-box a:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../assets/icons/MetaGroove_Logo.png" alt="MetaGroove" class="logo">
+      <h1 data-i18n="extName">MetaGroove</h1>
+      <div id="version" class="version"></div>
+      <p class="tagline" data-i18n="aboutTagline">Advanced Music Filtering</p>
+    </div>
+
+    <!-- What is MetaGroove -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionWhatTitle">🎵 What is MetaGroove?</h2>
+      <p data-i18n-html="aboutWhatP1">MetaGroove is...</p>
+      <p data-i18n-html="aboutWhatP2">It allows filtering...</p>
+      <ul>
+        <li data-i18n-html="aboutWhatLi1">Year</li>
+        <li data-i18n-html="aboutWhatLi2">Duration</li>
+        <li data-i18n-html="aboutWhatLi3">Search</li>
+        <li data-i18n-html="aboutWhatLi4">Exploration</li>
+      </ul>
+      
+      <div class="highlight-box" data-i18n-html="aboutUniqueFeatureBox">
+        Unique Feature
+      </div>
+    </div>
+
+    <!-- How to Use -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionHowTitle">📖 How to Use</h2>
+      
+      <h3 data-i18n="aboutHowStep1Title">1. Open</h3>
+      <p data-i18n="aboutHowStep1Text">Go to platform...</p>
+
+      <h3 data-i18n="aboutHowStep2Title">2. Enable Filters</h3>
+      <p data-i18n-html="aboutHowStep2Text">Check boxes...</p>
+      <ul>
+        <li data-i18n-html="aboutHowStep2Li1">Year</li>
+        <li data-i18n-html="aboutHowStep2Li2">Duration</li>
+        <li data-i18n-html="aboutHowStep2Li3">Search</li>
+      </ul>
+
+      <h3 data-i18n="aboutHowStep3Title">3. Click Apply</h3>
+      <p data-i18n-html="aboutHowStep3Text">Click button...</p>
+
+      <div class="warning-box">
+        <div data-i18n-html="aboutWarningImportant">IMPORTANT</div>
+        <p data-i18n-html="aboutWarningText" style="margin-top: 10px;">Wait for...</p>
+        <ol style="margin-top: 10px;">
+          <li data-i18n="aboutWarningLi1">Scroll</li>
+          <li data-i18n="aboutWarningLi2">Extract</li>
+          <li data-i18n="aboutWarningLi3">Apply</li>
+        </ol>
+        <p style="margin-top: 12px;" data-i18n-html="aboutProcessingTime">Processing time...</p>
+      </div>
+
+      <h3 data-i18n="aboutHowStep4Title">4. Result</h3>
+      <p data-i18n-html="aboutHowStep4Text">Tracks hidden...</p>
+
+      <div class="highlight-box" data-i18n-html="aboutTip">
+        Tip
+      </div>
+    </div>
+
+    <!-- Why is it Useful -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionWhyTitle">💎 Why is it Useful?</h2>
+      
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h4 data-i18n="aboutWhyGrid1Title">DJs</h4>
+          <p data-i18n="aboutWhyGrid1Text">Text</p>
+        </div>
+        <div class="feature-card">
+          <h4 data-i18n="aboutWhyGrid2Title">Researchers</h4>
+          <p data-i18n="aboutWhyGrid2Text">Text</p>
+        </div>
+        <div class="feature-card">
+          <h4 data-i18n="aboutWhyGrid3Title">Listeners</h4>
+          <p data-i18n="aboutWhyGrid3Text">Text</p>
+        </div>
+        <div class="feature-card">
+          <h4 data-i18n="aboutWhyGrid4Title">Curators</h4>
+          <p data-i18n="aboutWhyGrid4Text">Text</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Was It Created -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionCreatedTitle">🚀 Why Created?</h2>
+      <p data-i18n-html="aboutCreatedText1">Frustration...</p>
+      <p data-i18n-html="aboutCreatedText2">Platforms limit...</p>
+      <p data-i18n-html="aboutCreatedText3">Use cases...</p>
+
+      <div class="highlight-box" data-i18n-html="aboutMissionBox">
+        Mission...
+      </div>
+    </div>
+
+    <!-- Creator -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionCreatorTitle">👨‍💻 Creator</h2>
+      <div class="creator-box">
+        <h4 data-i18n="aboutDevelopedBy">Developed by</h4>
+        <a href="https://github.com/TX-Breaker" target="_blank">
+          🔗 TX-Breaker
+        </a>
+      </div>
+      <p data-i18n-html="aboutCreatorText">Open source...</p>
+      <p data-i18n-html="aboutContributeText">Contributions...</p>
+    </div>
+
+    <!-- License & Disclaimer -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionLicenseTitle">⚖️ License & Disclaimer</h2>
+      
+      <h3 data-i18n="aboutLicenseTitle">License</h3>
+      <p data-i18n-html="aboutLicenseText">MIT...</p>
+      <ul>
+        <li data-i18n="aboutLicenseLi1">Commercial</li>
+        <li data-i18n="aboutLicenseLi2">Modification</li>
+        <li data-i18n="aboutLicenseLi3">Distribution</li>
+        <li data-i18n="aboutLicenseLi4">Private</li>
+      </ul>
+
+      <h3 data-i18n="aboutDisclaimerTitle">Important Disclaimer</h3>
+      <div class="warning-box">
+        <strong data-i18n="aboutDisclaimerBoxTitle">Independent Tool</strong><br>
+        <div data-i18n-html="aboutDisclaimerBoxText" style="margin-top: 10px;">Warning text...</div>
+      </div>
+
+      <p data-i18n-html="aboutPrivacyText">Privacy...</p>
+      <p data-i18n-html="aboutTosText">ToS...</p>
+    </div>
+
+    <!-- Support -->
+    <div class="section">
+      <h2 data-i18n="aboutSectionSupportTitle">❓ Support</h2>
+      <p data-i18n="aboutSupportText">Report bugs...</p>
+      <ul>
+        <li data-i18n-html="aboutSupportLi1">Bug Report</li>
+        <li data-i18n-html="aboutSupportLi2">Feature Request</li>
+        <li data-i18n-html="aboutSupportLi3">Documentation</li>
+      </ul>
+
+      <div class="highlight-box" data-i18n-html="aboutLikeBox">
+        Like...
+      </div>
+    </div>
+
+  </div>
+  <script src="about.js"></script>
+</body>
+</html>
