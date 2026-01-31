@@ -4,25 +4,63 @@
   <img src="src/assets/icons/MetaGroove_Logo.png" alt="MetaGroove Logo" width="128" />
   <br>
   <h3>Advanced Music Filtering for YouTube, YouTube Music & SoundCloud</h3>
+  <p>Filter by Year, Duration, Keywords & Discover Related Content without Algorithm Noise.</p>
 </div>
 
 <br>
 
-**MetaGroove** is a powerful browser extension designed for music enthusiasts, DJs, and researchers. It adds advanced filtering capabilities to major music streaming platforms that natively lack them.
+---
 
-## 🚀 Features
+## 🎵 What is MetaGroove?
 
-- **Advanced Filtering**: Filter content on YouTube, YouTube Music, and SoundCloud by:
-  - **Release Year**: Set specific year ranges (e.g., 2010-2015).
-  - **Duration**: Filter tracks by minimum and maximum length.
-  - **Keywords**: Whitelist (search) or Blacklist specific terms in titles.
-- **Exploration Mode (YouTube)**: A unique mode that automatically selects "Related Videos" and hides algorithmic feeds like "For You" or "All", allowing for pure, undistracted music discovery paths.
-- **Verified Year**: Displays the detected release year next to the relative date (e.g., "5 years ago (2018)") to help you verify content age instantly.
-- **Privacy Focused**: All filtering happens locally in your browser. No data is collected or transmitted.
+**MetaGroove** is a browser extension that gives you control over your music streaming experience. Platforms like YouTube and SoundCloud are great, but they lack precise tools to find exactly what you want.
 
-## 🛠️ Installation
+MetaGroove adds the missing layer: **advanced, parameterizable filters**.
 
-### From Source (Developer Mode)
+### 💎 Why use it?
+
+*   **🎧 DJs & Producers**: Find tracks from a specific era (e.g., "Deep House from 2010-2012") for your sets.
+*   **📚 Researchers**: Analyze the evolution of a genre by filtering music releases over time.
+*   **🎵 Power Users**: Filter out tracks that are too short (intros) or too long (mixes), or find specific remixes.
+*   **🚀 Content Discovery**: Use our unique **Exploration Mode** on YouTube to force the "Related Videos" view, hiding the distraction of "For You" and "All" chips, keeping you focused on the rabbit hole you chose exploring.
+
+---
+
+## 📖 How to Use
+
+1.  **Open MetaGroove**: Go to YouTube, YouTube Music, or SoundCloud and click the extension icon.
+2.  **Set Filters**:
+    *   **Release Year**: Define a range (e.g., 2015 to 2020).
+    *   **Duration**: Slider to exclude tracks too short or long.
+    *   **Keywords**: Search for specific terms in titles/channels.
+    *   **Exploration Mode**: (YouTube only) Check to lock suggestions to "Related" or "Unwatched".
+3.  **Apply**: Click **Apply** and wait for the page to process the content.
+
+> **⚡ Unique Feature:** MetaGroove automatically extracts metadata (even verifying release years from YouTube for YTM tracks) to ensure accurate filtering.
+
+---
+
+## ✨ Key Features
+
+*   **Year Filter**: Filter content by release year range.
+*   **Duration Filter**: Filter by track length (min/max).
+*   **Blacklist**: Hide tracks containing specific unwanted words.
+*   **Exploration Mode (YouTube)**: Automatically selects "Related Videos" on watch pages and "Not Watched" on search results, hiding algorithmic noise like "For You".
+*   **Verified Year**: Displays the verified release year next to the relative date (e.g., "5 years ago (2018)") directly in the interface.
+*   **Privacy Focused**: All processing happens locally in your browser. No data is collected.
+
+---
+
+## 💻 For Developers
+
+MetaGroove is open-source! We welcome contributions to improve the tool.
+
+### Database & Tech Stack
+*   **JavaScript (ES6+)**
+*   **Webpack** for bundling
+*   **Manifest V3**
+
+### Build Instructions
 
 1.  **Clone the repository**:
     ```bash
@@ -36,33 +74,26 @@
     ```
 
 3.  **Build the extension**:
-    - For **Chrome**:
-      ```bash
-      npm run build:chrome
-      ```
-    - For **Firefox**:
+    - For **Firefox** (Production):
       ```bash
       npm run build:firefox
       ```
+    - For **Chrome** (Production):
+      ```bash
+      npm run build:chrome
+      ```
 
 4.  **Load in Browser**:
-    - **Chrome**: Go to `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, and select the `dist/chrome` folder.
-    - **Firefox**: Go to `about:debugging`, click **This Firefox**, then **Load Temporary Add-on**, and select `dist/firefox/manifest.json`.
+    - **Firefox**: Go to `about:debugging` -> This Firefox -> Load Temporary Add-on -> Select `dist/firefox/manifest.json`.
+    - **Chrome**: Go to `chrome://extensions` -> Developer Mode -> Load Unpacked -> Select `dist/chrome` folder.
 
-## 🤝 Contributing
+### Contributing
+Fork the repo, create a feature branch, and submit a Pull Request!
 
-Contributions are welcome! If you have ideas for improvements or bug fixes, please open an issue or submit a pull request.
-
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+---
 
 ## 📜 License
 
-Distributed under the **GNU General Public License v3.0** (GPLv3). This ensures that the software remains free and open-source for everyone. See `LICENSE` for more information.
-
----
+Distributed under the **GNU General Public License v3.0** (GPLv3). See `LICENSE` for more information.
 
 **Developed by TX-Breaker**
