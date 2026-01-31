@@ -24,6 +24,15 @@ MetaGroove adds the missing layer: **advanced, parameterizable filters**.
 *   **🎵 Power Users**: Filter out tracks that are too short (intros) or too long (mixes), or find specific remixes.
 *   **🚀 Content Discovery**: Use our unique **Exploration Mode** on YouTube to force the "Related Videos" view, hiding the distraction of "For You" and "All" chips, keeping you focused on the rabbit hole you chose exploring.
 
+
+---
+
+## 📖 How to Install
+
+1.  **Mozilla Firefox**: Install trough https://addons.mozilla.org/it/firefox/addon/metagroove/
+2.  **Google Chrome**: Currently in approval phase
+
+
 ---
 
 ## 📖 How to Use
