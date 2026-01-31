@@ -26,6 +26,13 @@ MetaGroove adds the missing layer: **advanced, parameterizable filters**.
 
 ---
 
+## 💻 How to install
+
+1.  **Firefox**: Install trough https://addons.mozilla.org/it/firefox/addon/metagroove/
+2.  **Google Chrome**: In approval phase
+
+---
+
 ## 📖 How to Use
 
 1.  **Open MetaGroove**: Go to YouTube, YouTube Music, or SoundCloud and click the extension icon.
