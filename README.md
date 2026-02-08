@@ -30,7 +30,7 @@ MetaGroove adds the missing layer: **advanced, parameterizable filters**.
 ## 📖 How to Install
 
 1.  **Mozilla Firefox**: Install trough https://addons.mozilla.org/it/firefox/addon/metagroove/
-2.  **Google Chrome**: Currently in approval phase
+2.  **Google Chrome**: Install trough https://chromewebstore.google.com/detail/metagroove/ijflglpnfblbpkcjilndgnnhlahfdjek
 
 
 ---
